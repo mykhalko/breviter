@@ -20,6 +20,10 @@
 	margin: 0px auto 0px auto;
 }
 
+a.header-item{
+	display: block;
+}
+
 .header-item{
 	box-sizing: border-box;
 	background-repeat: no-repeat;
@@ -65,6 +69,18 @@
 	color: #22bb66;
 }
 
+li.header-main > a > div{
+	display: inline-block;
+	border: none;
+	width: 11px;
+	height: 6px;
+	background-image: url("icons/header/header-arrow-down-icon.png");
+}
+
+li.header-main > a:hover > div{
+	background-image: url("icons/header/header-arrow-down-icon-hover.png");
+}
+
 .header-list-menu li:first-child{
 	border-left: none;
 }
@@ -74,17 +90,17 @@
 }
 
 .header-menu{
-	background-image: url("icons/header-menu-icon.png");
+	background-image: url("icons/header/header-menu-icon.png");
 }
 
 .header-search{
-	background-image: url("icons/header-search-icon.png");
+	background-image: url("icons/header/header-search-icon.png");
 }
 
 .header-menu:hover{
-	background-image: url("icons/header-menu-icon-hover.png");
+	background-image: url("icons/header/header-menu-icon-hover.png");
 }
 
 .header-search:hover{
-	background-image: url("icons/header-search-icon-hover.png");
+	background-image: url("icons/header/header-search-icon-hover.png");
 }
