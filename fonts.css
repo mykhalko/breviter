@@ -9,3 +9,13 @@
 	font-family: "Bira-PERSONALUSEONLY";
 	src: url("font/Bira/Bira-PERSONALUSEONLY.ttf");
 }
+
+@font-face{
+	font-family: "Montserrat-Regular";
+	src: url("font/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face{
+	font-family: "Droid-Serif";
+	src: url("font/Droid-Serif/DroidSerif-Regular.ttf");
+}

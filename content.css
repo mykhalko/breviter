@@ -1,0 +1,135 @@
+
+
+.main-part{
+	max-width: 1170px;
+	margin: 120px auto 120px auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.main-content{
+	max-width: 764px;
+	display: flex;
+	flex-direction: column;
+	background-color: #ffffff;
+}
+
+
+.main-content h1{
+	display: block;
+	margin: 46px;
+	font-size: 23px;
+	font-family: "Montserrat-Bold";
+}
+
+@media only screen and (max-width: 764px){
+	.main-content img{
+		width: 100%;
+		height: 100%;
+	}
+
+	.main-content h1{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-size: 14px;
+	}
+
+	.main-part{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+.top-post-pane{
+	padding: 0px;
+	margin: 35px 0px  35px 46px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	font-size: 13px;
+	font-family: "Montserrat-Regular";
+}
+
+.top-post-pane .date{
+	width: 142px;
+	height: 29px;
+	border: 1px solid #dfdfdf;
+	border-radius: 3px;
+	color: #939393;
+}
+
+.circle-separator{
+	width: 5px;
+	height: 5px;
+	border-radius: 2px;
+	border: none;
+	background: #c7c7c7;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
+.line-separator{
+	width: 1px;
+	height: 20px;
+	border: none;
+	background: #c7c7c7;
+	margin-left: 14px;
+	margin-right: 14px;
+}
+
+.date {
+	line-height: 27px;
+}
+
+.top-post-pane div, .top-post-pane input{
+	text-align: center; 
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.top-post-pane input{
+	background-color: rgba(255, 255, 255, 0);
+	border-color: #22bb66;
+	border-radius: 3px;
+	border: 1px solid ;
+	color: #22bb66;
+	min-width: 80px;
+	height: 26px;
+}
+
+
+.top-post-pane input:hover{
+	transition: 0.5s;
+	background-color: #22bb66;
+	color: #ffffff;
+}
+
+
+.main-content p {
+	font-family: "Droid-Serif"
+	font-size: 14px;
+	margin: 35px 46px;
+}
+
+@media only screen and (max-width: 517px){
+	div.line-separator, div.circle-separator{
+		display: none;
+	}
+
+	.top-post-pane input, .top-post-pane div{
+		margin: 3px;
+	}
+
+	.top-post-pane{
+		margin: 0px 10px;
+	}
+
+	.main-content h1{
+		margin: 0px 10px;
+	}
+
+	.main-content p{
+		margin: 10px;
+	}
+}
