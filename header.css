@@ -1,34 +1,55 @@
 
 
 .header{
+	background-color: #ffffff;
+	font-family: "Montserrat-Bold";
+	font-size: 13px;
+	border-bottom: 1px solid #e6e6e6;
+	min-height: 70px;
+	height: auto;
+}
+
+.header-width-limiter{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	border-bottom: 1px solid #e6e6e6;
+	max-width: 1170px;
 	min-height: 70px;
-	width: 100%;
-	background-color: #ffffff;
-	font-family: "Montserrat-Bold";
-	font-size: 13px;
+	height: auto;
+	margin: 0px auto 0px auto;
 }
 
 .header-item{
 	box-sizing: border-box;
 	background-repeat: no-repeat;
-	height: 31px;
+	min-height: 31px;
 }
 
+.header-item:first-child{
+	width: 65px;
+	background-position: 26px 9px;
+	border-right: 1px solid #e5e5e5;
+}
+
+.header-item:last-child{
+	width: 65px;
+	background-position: 26px 9px;
+	border-left: 1px solid #e5e5e5;
+}
+
+
 .header-list-menu > ul{
+	margin-top: 6px;
 	list-style: none;
-	padding: 0;
+	padding: 1px;
 	font-size: 0px;
 }
 
 .header-list-menu li{
 	font-size: 13px;
 	display: inline-block;
-	height: 15px;
+	min-height: 15px;
 	padding: 0px 22px;
 	border-right: 1px solid #e5e5e5;
 	border-left: 1px solid #e5e5e5;
@@ -58,4 +79,12 @@
 
 .header-search{
 	background-image: url("icons/header-search-icon.png");
+}
+
+.header-menu:hover{
+	background-image: url("icons/header-menu-icon-hover.png");
+}
+
+.header-search:hover{
+	background-image: url("icons/header-search-icon-hover.png");
 }
