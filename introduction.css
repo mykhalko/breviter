@@ -105,9 +105,28 @@
 	margin: 0px 12px 0px 12px;
 }
 
-
 @media only screen and (max-width: 438px){
 	.introduction-line{
 		display: none;
 	}
 }
+
+
+.breviter-main-logo{
+	width: 333px;
+	height: 112px;
+	margin: 17px auto 0px auto;
+}
+
+@media only screen and (max-width: 332px){
+	.breviter-main-logo img{
+		height: 100%;
+		width: 100%;
+	}
+
+	.breviter-main-logo{
+		height: auto;
+		width: auto;
+	}
+}
+
