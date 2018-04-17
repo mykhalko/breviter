@@ -82,3 +82,32 @@
 .rss:hover{
 	background-image: url("icons/social-network/rss-hover.png");
 }
+
+
+.introduction-label-container{
+	margin-top: 25px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.introduction-line{
+	width: 102px;
+	height: 1px;
+	background-color: #22bb66;
+}
+
+.introduction-label{
+	font-family: "Bira-PERSONALUSEONLY";
+	margin: 0px 12px 0px 12px;
+}
+
+
+@media only screen and (max-width: 438px){
+	.introduction-line{
+		display: none;
+	}
+}

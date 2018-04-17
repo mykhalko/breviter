@@ -104,3 +104,20 @@ li.header-main > a:hover > div{
 .header-search:hover{
 	background-image: url("icons/header/header-search-icon-hover.png");
 }
+
+@media only screen and (max-width: 208px){
+	.header-list-menu li{
+		border: none;
+	}
+
+
+	.header-item:first-child{
+		border: none;
+	}
+
+	.header-item:last-child{
+		border: none;
+	}
+
+
+}
