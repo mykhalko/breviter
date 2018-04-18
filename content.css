@@ -4,14 +4,13 @@
 	max-width: 1170px;
 	margin: 120px auto 120px auto;
 	display: flex;
-	flex-direction: row;
+	flex-direction: row; 
 }
 
 .main-content{
 	max-width: 764px;
 	display: flex;
 	flex-direction: column;
-	background-color: #ffffff;
 }
 
 
@@ -106,7 +105,7 @@
 }
 
 
-.main-content p {
+.main-content .description-box p {
 	font-family: "Droid-Serif"
 	font-size: 14px;
 	margin: 35px 46px;
@@ -136,6 +135,7 @@
 
 
 .description-box{
+	background-color: #ffffff;
 	border-bottom: 1px solid #d6d6d6;
 }
 
@@ -206,4 +206,114 @@
 	.description-box-footer > div, .description-box-footer > a{
 		margin: auto;
 	}				
+}
+
+.social-share-comment{
+	margin-top: 35px;
+	box-sizing: border-box;
+	min-height: 195px;
+	background-color: #ffffff;
+	border-bottom: 1px solid #d6d6d6;
+	display: flex;
+	align-items: center;
+}
+
+.social-share-comment div.author-photo{
+	height: 105px;
+	min-width: 105px;
+	margin-left: 46px;
+	background-image: url("photos/kurisu.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.social-share-comment div.comment-content{
+	margin-left: 20px;
+	margin-right: 46px;
+	min-height: 107px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+h3.author-name{
+	display: block;
+	font-size: 16px;
+	font-family: "Montserrat-Bold";
+	margin: 0px;
+}
+
+
+p.content-text{
+	display: block;
+	margin: 0px;
+}
+
+div.share-social{
+	height: 17px;
+	width: 100px;
+	display: flex;
+	flex-direction: row;
+}
+
+div.share-social > a{
+	display: block;
+	box-sizing: border-box;
+	height: 100%;
+	width: 25%;
+}
+
+div.share-social > a:nth-child(1){
+	background-image: url("icons/sprites/social-sprite.png");
+	background-repeat: no-repeat;
+	background-position: 4px 0px;
+}
+
+div.share-social > a:nth-child(1):hover{
+	background-image: url("icons/sprites/social-sprite-hover.png");
+}
+
+div.share-social > a:nth-child(2){
+	background-image: url("icons/sprites/social-sprite.png");
+	background-repeat: no-repeat;
+	background-position: -20px 0px;
+}
+
+div.share-social > a:nth-child(2):hover{
+	background-image: url("icons/sprites/social-sprite-hover.png");
+}
+
+div.share-social > a:nth-child(3){
+	background-image: url("icons/sprites/social-sprite.png");
+	background-repeat: no-repeat;
+	background-position: -44px 0px;
+}
+
+div.share-social > a:nth-child(3):hover{
+	background-image: url("icons/sprites/social-sprite-hover.png");
+}
+
+div.share-social > a:nth-child(4){
+	background-image: url("icons/sprites/social-sprite.png");
+	background-repeat: no-repeat;
+	background-position: -72px 0px;
+}
+
+div.share-social > a:nth-child(4):hover{
+	background-image: url("icons/sprites/social-sprite-hover.png");
+}
+
+@media only screen and (max-width: 600px){
+	div.author-photo{
+		display: none;
+	}
+
+	.description-box{
+		margin-bottom: 10px;
+	}
+
+	.social-share-comment{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
 }
