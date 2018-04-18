@@ -458,3 +458,10 @@ div.closed-comment{
 .closed-comment:hover .decoration {
 	background-image: url("icons/commentary/corner-icon-hover.png")	;
 }
+
+
+@media only screen and (max-width: 500px){
+	div.closed-comment{
+		margin-top: 10px;
+	}
+}
