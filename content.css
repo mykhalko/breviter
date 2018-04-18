@@ -360,7 +360,7 @@ div.content-displays div:hover span{
 	color: #404040;
 }
 
-
+ 
 @media only screen and (max-width: 770px){
 	div.content-displays{
 		width: 100%;
@@ -373,4 +373,88 @@ div.content-displays div:hover span{
 		margin: 3px;
 	}
 
+}
+
+
+/* CLOSED COMMENTARY */
+
+div.closed-comment{
+	margin-top: 45px;
+	padding: 0px;
+	display: flex;
+	flex-direction: column;
+	background-color: #ffffff;
+	border-bottom: 1px solid #d6d6d6;
+}
+
+
+
+.closed-comment .info{
+	display: flex;
+	margin: 35px 35px 0px 35px;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+.info .author{
+	display: flex;
+	flex-direction: row;
+	font-family: "Montserrat-Bold";
+}
+
+
+.closed-comment .info .author-photo{
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 67px;
+	height: 65px;
+	margin-right: 30px;
+}
+
+.closed-comment .info .kurisu{
+	background-image: url("photos/kurisu.jpg");
+}
+
+.closed-comment .info .ui{
+	background-image: url("photos/Ui.jpg");
+}
+
+.closed-comment .info .hitagi{
+	background-image: url("photos/hitagi.jpg");
+}
+
+.closed-comment .info h3{
+	font-size: 18px;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 6px;
+}
+
+.closed-comment .decoration{
+	box-sizing: border-box;
+	background-image: url("icons/commentary/corner-icon.png");
+	background-repeat: 0px;
+	height: 19px;
+	width: 10px;
+}
+
+.closed-comment .info span{
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	color: #22bb66;
+	font-size: 11px;
+}
+
+.closed-comment p.content{
+	display: block;
+	font-family: "Droid-Serif";
+	font-size: 14px;
+	margin: 35px 25px 35px 25px;
+}
+
+.closed-comment:hover .decoration {
+	background-image: url("icons/commentary/corner-icon-hover.png")	;
 }
