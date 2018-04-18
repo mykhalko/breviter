@@ -110,6 +110,12 @@ li.header-main > a:hover > div{
 		border: none;
 	}
 
+}
+
+@media only screen and (max-width: 620px){
+	.header-width-limiter{
+		justify-content: center;
+	}
 
 	.header-item:first-child{
 		border: none;
@@ -118,6 +124,4 @@ li.header-main > a:hover > div{
 	.header-item:last-child{
 		border: none;
 	}
-
-
 }

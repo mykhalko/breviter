@@ -317,3 +317,60 @@ div.share-social > a:nth-child(4):hover{
 		margin-bottom: 10px;
 	}
 }
+
+
+
+/* PLAYFAIR DISPLAY */
+
+div.content-displays{
+	width: 770px;
+	margin-top: 45px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+div.content-displays div{
+	box-sizing: border-box;
+	display: flex;
+	height: 143px;
+	width: 244px;
+	background-color: #404040;
+	justify-content: center;
+	align-items: center;
+}
+
+.content-displays div span{
+	display: block;
+	box-sizing: border-box;
+	color: #ffffff;
+	padding: 10px 12px 10px 12px;
+	font-family: "Montserrat-Bold";
+	font-size: 14px;
+}
+
+div.content-displays div:hover{
+	transition: 0.7s;
+	background: #ffffff;
+	border: 1px solid #404040;
+}
+
+div.content-displays div:hover span{
+	border: 1px solid #404040;
+	color: #404040;
+}
+
+
+@media only screen and (max-width: 770px){
+	div.content-displays{
+		width: 100%;
+		height: auto;
+		margin: 10px 0px;
+		justify-content: center;
+	}
+
+	.content-displays div{
+		margin: 3px;
+	}
+
+}
