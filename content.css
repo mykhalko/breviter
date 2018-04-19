@@ -656,7 +656,7 @@ form.message-us{
 	div.follow-me{
 		width: 100%;
 		height: auto;
-		padding: 3px;
+		padding: 5px;
 		align-items: center;
 	}
 
@@ -672,6 +672,10 @@ form.message-us{
 	.follow-me span.no-link{
 		display: none;
 	}
+
+	.follow-me .follow-links{
+		margin-top: 5px;
+	}
 }
 
 
@@ -684,6 +688,8 @@ form.message-us{
 	display: flex;
 	flex-direction: column;
 }
+
+
 
 .follow-me a {
 	display: inline-block;
@@ -745,9 +751,7 @@ form.message-us{
 	background: none;
 	border: 1px solid #d6d6d6;
 	border-radius: 3px; 
-	color: #d6d6d6;
-	font-family: "Montserrat-Regular";
-	font-size: 10px;	
+	color: #d6d6d6;	
 	padding: 0px;
 	display: flex;
 	justify-content: center;
@@ -755,8 +759,134 @@ form.message-us{
 }
 
 .share-on .label span{
+	font-family: "Montserrat-Regular";
+	font-size: 10px;
 	display: inline-block;
 	margin: 0px;
 	padding: 0px;
 }
 
+
+.lara-croft-ad{
+	box-sizing: border-box;
+	margin-top: 45px;
+	width: 360px;
+	background-color: #ffffff;
+	border-bottom: 1px solid #d6d6d6;
+	padding: 30px 30px 45px 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.lara-croft-ad .share-on{
+	width: 100%;
+}
+
+
+.lara-croft-ad > a{
+	color: #22bb66;
+	text-decoration: none;
+	margin-top: 20px;
+	display: block;
+}
+
+
+.lara-croft-ad > a > span{
+	text-decoration: underline;
+}
+
+.lara-croft-ad p{
+	padding: 0px;
+	margin: 0px;
+	margin-top: 40px;
+	text-align: center;
+	font-size: 14px;
+	color: #4a4a4a;
+	font-family: "Droid-Serif";
+}
+
+.lara-croft-ad .croft-photo{
+	box-sizing: border-box;
+	margin-top: 40px;
+}
+
+.lara-croft-ad .croft-signature{
+	margin-top: 25px;
+}
+
+.lara-croft-ad .share-switch{
+	margin-top: 30px;
+}
+
+.lara-croft-ad .share-switch a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.lara-croft-ad .share-switch a:hover{
+	color: #22bb66;
+}
+
+
+.lara-croft-ad .share-switch a:nth-child(1), .lara-croft-ad .share-switch a:nth-child(2){
+	margin-right: 10px;
+}
+
+@media only screen and (max-width: 360px){
+	.world-gift-box{
+		padding: 5px;
+		width: 100%;
+		height: auto;
+		margin: 10px 0px;
+	}
+
+	.world-git-box div{
+		padding: 5px;
+	}
+
+	.world-gift-box div img{
+		height: 100%;
+		width: 100%;
+	}
+
+
+	div.follow-me{
+		width: 100%;
+		height: auto;
+		padding: 5px;
+		align-items: center;
+	}
+
+	.share-on{
+		justify-content: center;
+	}
+
+
+	.share-on .double-line{
+		display: none;
+	}
+
+	.follow-me span.no-link{
+		display: none;
+	}
+
+	.follow-me .follow-links{
+		margin-top: 5px;
+	}
+
+	div.lara-croft-ad{
+		width: 100%;
+		padding: 5px;
+	}
+
+	.lara-croft-ad .croft-photo{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 165px){
+	.lara-croft .croft-signature{
+		width: 100%;
+	}
+}
