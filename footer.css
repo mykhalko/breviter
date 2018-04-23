@@ -21,6 +21,7 @@
 
 .footer .my-instagram a{
 	display: flex;
+	outline: none;
 	justify-content: center;
 	align-items: center;
 	box-sizing: border-box;
@@ -28,7 +29,7 @@
 	width: 170px;
 	text-decoration: none;
 	background: rgba(34, 187, 102, 0.5);
-	color: #ffffff;;
+	color: #ffffff;
 	font-family: "Montserrat-Bold";
 	font-size: 14px;
 	margin: 145px auto auto auto;
@@ -160,6 +161,7 @@
 	background-color: #22bb66;
 	font-family: "Montserrat-Bold";
 	color: #ffffff;
+	outline: none;
 }
 
 .footer-subscribe input[type="submit"]:hover{
@@ -174,6 +176,7 @@
 }
 
 .to-top-button a{
+	outline: none;
 	box-sizing: border-box;
 	display: block;
 	height: 110px;
