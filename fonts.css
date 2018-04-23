@@ -19,3 +19,8 @@
 	font-family: "Droid-Serif";
 	src: url("font/Droid-Serif/DroidSerif-Regular.ttf");
 }
+
+@font-face{
+	font-family: "Playfair-Display";
+	src: url("font/Playfair-Display/PlayfairDisplay-Italic.ttf");
+}

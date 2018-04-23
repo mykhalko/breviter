@@ -1,0 +1,257 @@
+
+.footer{
+	box-sizing: border-box;
+	width: 100%;
+	margin-top: 140px;
+	display: grid;
+	background: #ffffff; 
+	border-top: 1px solid #e5e5e5;
+}
+
+
+.footer .my-instagram{
+	width: 100%;
+	box-sizing: border-box;;
+	background-image: url("background/footer-instagram-background.jpg");
+	background-size: cover;
+	border-bottom: 1px solid #e5e5e5; 
+	height: 340px;
+}
+
+
+.footer .my-instagram a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	height: 50px;
+	width: 170px;
+	text-decoration: none;
+	background: rgba(34, 187, 102, 0.5);
+	color: #ffffff;;
+	font-family: "Montserrat-Bold";
+	font-size: 14px;
+	margin: 145px auto auto auto;
+}
+
+
+.footer .my-instagram a:hover {
+	transition: 0.5s;
+	background: rgba(34, 187, 102, 1);
+}
+
+
+.footer .copyright {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: "Playfair-Display";
+	font-size: 14px;
+	text-align: center;
+}
+
+@media only screen and (max-width: 350px){
+	.footer .my-instagram{
+		height: auto;
+
+	}
+
+	.footer .my-instagram a{
+		width: 100%;
+		margin: 0px;
+	}
+}
+
+
+
+.footer .width-limiter{
+	box-sizing: border-box;
+	max-width: 1170px;
+	width: 100%;
+	margin: 0px auto;
+	box-sizing: border-box;
+	display: grid;
+	grid-template-columns: 370fr 610fr 195fr; 
+}
+
+.footer .web-logo{
+	height: 245px;
+	box-sizing: border-box;
+	background: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer .web-logo img{
+}
+
+.footer .footer-subscribe{
+	height: 245px;
+	box-sizing: border-box;
+	background: none;
+}
+
+.footer .to-top-button{
+	height: 245px;
+	box-sizing: border-box;
+	background: none;
+}
+
+
+.footer-subscribe{
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer-subscribe h3{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Montserrat-Regular";
+	font-size: 15px;
+}
+
+
+.footer-subscribe div{
+	max-height: 75px;
+}
+
+
+
+.footer-subscribe form{
+	padding: 0px;
+	margin: 0px;
+	margin-top: 15px;
+	max-height: 45px;
+}
+
+
+.footer-subscribe input{
+	box-sizing: border-box;
+	border: none;
+	margin: 0px;
+	height: 100%; 
+}
+
+.footer-subscribe input[type="text"]{
+	box-sizing: border-box;
+	width: 350px;
+	background-color: #f8f8f8;
+	border: 2px solid #f8f8f8;
+	border-right: none;
+	padding-left: 5px; 
+	outline: none;
+	font-family: "Montserrat-Regular";
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.footer-subscribe input[type="text"]:focus{
+	border: 2px solid #22bb66;
+	border-right: none;
+}
+
+.footer-subscribe input[type="submit"]{
+	box-sizing: border-box;
+	width: 100px;
+	background-color: #22bb66;
+	font-family: "Montserrat-Bold";
+	color: #ffffff;
+}
+
+.footer-subscribe input[type="submit"]:hover{
+	background-color: #22bb40;
+}
+
+.to-top-button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.to-top-button a{
+	box-sizing: border-box;
+	display: block;
+	height: 110px;
+	width: 110px;
+	background: #f1f1f1;
+	border: none;
+	border-radius: 50%;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 33px;
+	color: #000000;
+	border: 2px solid #f1f1f1;
+}
+
+
+.to-top-button a span{
+	font-family: "Montserrat-Bold";
+	font-size: 13px;
+}
+
+.to-top-button a:hover{
+	color: #22bb66;
+	border: 2px solid #22bb66;
+}
+
+@media only screen and (max-width: 1160px){
+	.footer .web-logo{
+		display: none;
+	}
+	
+	.footer .width-limiter{
+		grid-template-columns: 3fr 1fr;
+	}	
+
+}
+
+@media only screen and (max-width: 635px){
+	
+	.footer .to-top-button{
+		display: none;
+		background: red;
+	}
+
+	.footer .width-limiter{
+		grid-template-columns: 1fr;
+	}
+}
+
+@media only screen and (max-width: 460px){
+	
+	.footer .width-limiter .footer-subscribe form{
+		display: grid;
+		grid-template-columns: 3fr 1fr;
+	}
+
+	.footer .width-limiter .footer-subscribe input{
+		width: 100%;
+		height: 45px;
+	}
+
+
+	.footer .width-limiter .footer-subscribe div{
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+		height: auto;
+	}
+
+	.footer .width-limiter {
+		height: auto;
+	}
+
+	.footer .width-limiter .footer-subscribe{
+		max-height: auto;
+		height: auto;
+	}
+
+	.footer .footer-subscribe h3{
+		display: none;
+	}
+
+
+}
