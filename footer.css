@@ -74,6 +74,7 @@
 }
 
 .footer .web-logo{
+	position: relative;
 	height: 245px;
 	box-sizing: border-box;
 	background: none;
@@ -166,6 +167,7 @@
 }
 
 .to-top-button{
+	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -195,6 +197,23 @@
 .to-top-button a:hover{
 	color: #22bb66;
 	border: 2px solid #22bb66;
+}
+
+.footer-delimiter{
+	position: absolute;
+	box-sizing: border-box;
+	height: 55px;
+	width: 1px;
+	border: none;
+	background-color: #d5d5d5;
+}
+
+.web-logo .footer-delimiter{
+	left: 100%;
+}
+
+.to-top-button .footer-delimiter{
+	right: 100%;
 }
 
 @media only screen and (max-width: 1160px){
